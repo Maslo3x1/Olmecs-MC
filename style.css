@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url("images/tło.jpg");
+    width: 1920px;
+    height: 1080px;
+    text-align: center;
+}
+header
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*background: transparent;*/
+    padding: 25px 15%;
+    transition-duration: .3s;
+    background-color: black;
+}
+nav
+{
+    display: flex;
+}
+nav li
+{
+    position: relative;
+}
+nav a
+{
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+.table
+{
+    display: flex;
+}
+table
+{
+    width: 900px;
+    height: 1080px;
+    border: 10px solid black;
+}
+.gallery
+{
+    height: 280px;
+    width: 400px;
+    background-color: black;
+}
